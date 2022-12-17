@@ -1,0 +1,12 @@
+console.log("JavaScript")
+var a = 45;
+// var b = "harry"
+const author = "rohith"
+let b = 5
+var c = null
+var d = undefined
+{
+  let b = "t"
+  console.log(b)
+}
+console.log(b)
