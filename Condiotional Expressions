@@ -1,0 +1,22 @@
+let a = prompt("hey, ur age ?")
+a = Number.parseInt(a)
+// console.log(typeof a)
+if(a < 0){
+  alert("YOu are a kid");
+}
+// console.log("you can", age > 18? "drive" : "not drive")
+else if(a < 9) {
+  alert(" no drive");
+}
+else if(a < 18 && a >=9 ) {
+  alert("you can think of driving")
+}
+else if(a > 60){
+  alert("u canot drive as ur age is higher")
+}
+else{
+  alert("u can drive")
+}
+console.log("Done")
+
+// console.log("you can", age > 18? " drive" : " not drive")
